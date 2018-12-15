@@ -1,0 +1,119 @@
+html {
+  background-color:rgb(255, 255, 255);
+}
+body {
+  margin:0;
+}
+a {
+  text-decoration: none;
+  color:#000;
+}
+.logo {
+  margin: auto;
+  padding-top: 30px;
+}
+.logo > img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: block;
+}
+.title1 {
+  color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:450;
+  text-align: center;
+}
+.title {
+  color: #000;
+  font-style: italic;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:450;
+  text-align: center;
+}
+.icons {
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  padding-top: 180px;
+  justify-content: center;
+}
+.img {
+  vertical-align:middle;
+  width: 30px;
+  height: 30px;
+  margin:0;
+}
+.img > img {
+  padding-top: 10px;
+}
+.icon-links {
+  margin:0;
+}
+.links {
+  color:#000;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  list-style: none;
+  font-weight:normal;
+  margin:0;
+  padding-left: 15px;
+}
+.links > li {
+  padding-top: 10px;
+}
+.container {
+  background-image: url('../img/clover.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:35%;
+  height: 600px;
+  padding-top:180px;
+  width: 100%;
+  display:block;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+.copy {
+  color:#000;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  margin:0;
+  text-align: center;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+.copy > a {
+  text-decoration: none;
+  color:#000;
+}
+.logo-parent {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.vbworks {
+ background-image: url('../img/favicon-64x64.png');
+ height: 20px;
+ width: 19px;
+ background-size:cover;
+}
+.vbworks:hover {
+ background-image: url('../img/favicongrey-64x64.png');
+}
+.container-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.clover {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
